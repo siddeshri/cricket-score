@@ -1,0 +1,16 @@
+main()
+{
+clrscr()
+int mp,rm,no100s,no50s;
+printf('enter match piayed by player");
+scanf("%d",&mp);
+printf("enter runs made by player");
+scanf("%d",&rm)
+printf("enter no of 100's made")
+scanf('%d",&no100s)
+printf("enter no of 50's made")
+scanf("%d,&no50s);
+print("matches\t\t runs\t\t 100's \t\t 50's \t\t average\n")
+printf("%d \t\t %d \t\t %d \t\t %d",mp,rm,no100s,no50s);
+getch();
+}
